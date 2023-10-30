@@ -15,16 +15,22 @@
 
 ## Architecture
 
-**Technologies and Tools:**
-- **React**: The foundational JavaScript library for this application. React, with its component-based structure, is used to build the user interface of the application.
-- **Vite**: A modern build tool that ensures fast startup and compilation of the project. It also offers instant hot module replacement (HMR) via ES modules, speeding up the development process.
-- **Axios**: A popular JavaScript library used for making HTTP requests. In the **City Explorer application**, Axios is used to make requests to the LocationIQ API.
+### Technologies and Tools:
 
-**Project Structure:**
-- **Components**: The application is divided into reusable React components. These components represent different parts of the user interface (e.g., search form, result list, map viewer).
-- **API Requests**: The application makes requests to the LocationIQ API based on the city name entered by the user. These requests are facilitated by the Axios library.
-- **State Management**: The state of the application is managed using React's useState and useEffect hooks. This state provides access to user search results, errors, and the map URL.
-- **Style and Design**: CSS is used for styling the application. No specific CSS framework or library is used.
+- **React**: The foundational JavaScript library for this application. With its component-based structure, React has been used to construct the user interface of the application.
+- **Vite**: A modern build tool that allows for the rapid initialization and compilation of the project.
+- **Axios**: A popular JavaScript library for making HTTP requests. Within the City Explorer application, Axios is used to make requests to the LocationIQ API.
+
+### Project Structure:
+
+- **Components**: The application is divided into reusable React components:
+  - **CityExplorer**: The component that allows users to input a city name and initiate a search.
+  - **LocationInfo**: The component that displays the search results.
+  - **CityMap**: The component that displays the map of the selected city.
+- **API Requests**: The `getLocation` function makes requests to the LocationIQ API based on the city name entered by the user.
+- **State Management**: The state of the application is managed using React's `useState` hook. This state provides access to information such as search results, errors, and the map URL.
+- **Style and Design**: The styling of the application is done using CSS (App.css). No specific CSS framework or library has been used.
+
 
 ## Change Log
 - 30-10-2023 00:00pm
