@@ -4,7 +4,7 @@
 **Version**: 1.0.0
 
 ## Overview
-City Explorer is a web application that allows users to retrieve information about a specific city. Users can enter a city name and get its latitude, longitude, and other relevant details.
+**City Explorer** is a web application that allows users to retrieve information about a specific city. Users can enter a city name and get its latitude, longitude, and other relevant details.
 
 ## Getting Started
 1. Clone the project to your local machine.
@@ -18,7 +18,7 @@ City Explorer is a web application that allows users to retrieve information abo
 **Technologies and Tools:**
 - **React**: The foundational JavaScript library for this application. React, with its component-based structure, is used to build the user interface of the application.
 - **Vite**: A modern build tool that ensures fast startup and compilation of the project. It also offers instant hot module replacement (HMR) via ES modules, speeding up the development process.
-- **Axios**: A popular JavaScript library used for making HTTP requests. In the City Explorer application, Axios is used to make requests to the LocationIQ API.
+- **Axios**: A popular JavaScript library used for making HTTP requests. In the **City Explorer application**, Axios is used to make requests to the LocationIQ API.
 
 **Project Structure:**
 - **Components**: The application is divided into reusable React components. These components represent different parts of the user interface (e.g., search form, result list, map viewer).
