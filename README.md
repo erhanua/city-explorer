@@ -39,9 +39,9 @@
   - Map feature added.
 
 ## Credit and Collaborations
-- **LocationIQ API**: The API used to retrieve city information. [Website](#)
-- **Axios**: Library used for HTTP requests. [GitHub Repository](#)
-- **Vite**: Fast build tool used for creating the application. [Website](#)
+- **LocationIQ API**: The API used to retrieve city information. [Website](https://locationiq.com/)
+- **Axios**: Library used for HTTP requests. [GitHub Repository](https://github.com/axios/axios)
+- **Vite**: Fast build tool used for creating the application. [Website](https://vitejs.dev/)
 
 
 
